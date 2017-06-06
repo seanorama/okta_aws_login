@@ -341,7 +341,7 @@ def update_config_file(okta_aws_login_config_file):
     # Get and validate region
     print("Enter the default region that will be used by the okta_aws_login "
             "tool and configured as part of the CLI profile.")
-    aws_regions = ["us-east-1","us-west-1","us-west-2","eu-west-1",
+    aws_regions = ["us-east-1","us-east-2","us-west-1","us-west-2","eu-west-1",
                     "eu-central-1","ap-southeast-1","ap-southeast-2",
                     "ap-northeast-1","sa-east-1"]
     region_valid = False
